@@ -1,0 +1,28 @@
+﻿@model ProductListViewModel
+
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card-group">
+    @foreach (var product in Model.Products)
+    {
+        <div class="col-md-4 mb-3 bg-light">
+            <div class="card">
+                <img class="card-img-top" src="@product.ProductImage" alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">
+                        <a href="#">@product.ProductName</a>
+                    </h6>
+                    <small class="text-muted" style="font-size:15px;">
+                        @product.UnitPrice <i class="fa fa-turkish-lira"></i>
+                    </small>
+                    <div class="card-footer text-center">
+                        <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@product.ProductId" class="btn btn-outline-success btn-sm ml-2">Sepete Ekle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

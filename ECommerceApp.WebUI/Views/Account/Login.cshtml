@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h4 class="text-center">Giriş Yap</h4>
+    <form action="/Account/Login" method="post" style="border: 3px solid #f1f1f1;">
+        <div class="container">
+            <br />
+            <label for="uname">Email</label>
+            <input type="text" name="uname" style=" width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box;" required>
+            <label for="psw">Şifre</label>
+            <input type="password" name="psw" style=" width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box;" required>
+            <div style="margin: auto; text-align: center; display: block;">
+                <button type="submit" class="btn btn-outline-success mb-2">Giriş</button>
+            </div>
+        </div>
+        <div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\bin\Debug\net5.0\ECommerceApp.Entities.deps.json
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\bin\Debug\net5.0\ECommerceApp.Entities.dll
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\bin\Debug\net5.0\ref\ECommerceApp.Entities.dll
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\bin\Debug\net5.0\ECommerceApp.Entities.pdb
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\bin\Debug\net5.0\ECommerceApp.Core.dll
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\bin\Debug\net5.0\ECommerceApp.Core.pdb
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\obj\Debug\net5.0\ECommerceApp.Entities.csproj.AssemblyReference.cache
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\obj\Debug\net5.0\ECommerceApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\obj\Debug\net5.0\ECommerceApp.Entities.AssemblyInfoInputs.cache
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\obj\Debug\net5.0\ECommerceApp.Entities.AssemblyInfo.cs
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\obj\Debug\net5.0\ECommerceApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\obj\Debug\net5.0\ECommerceApp.Entities.dll
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\obj\Debug\net5.0\ref\ECommerceApp.Entities.dll
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\obj\Debug\net5.0\ECommerceApp.Entities.pdb
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Entities\obj\Debug\net5.0\ECommerceApp.Entities.csproj.CopyComplete

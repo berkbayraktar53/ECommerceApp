@@ -1,0 +1,12 @@
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\bin\Debug\net5.0\ECommerceApp.Core.deps.json
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\bin\Debug\net5.0\ECommerceApp.Core.dll
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\bin\Debug\net5.0\ref\ECommerceApp.Core.dll
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\bin\Debug\net5.0\ECommerceApp.Core.pdb
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\obj\Debug\net5.0\ECommerceApp.Core.csproj.AssemblyReference.cache
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\obj\Debug\net5.0\ECommerceApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\obj\Debug\net5.0\ECommerceApp.Core.AssemblyInfoInputs.cache
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\obj\Debug\net5.0\ECommerceApp.Core.AssemblyInfo.cs
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\obj\Debug\net5.0\ECommerceApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\obj\Debug\net5.0\ECommerceApp.Core.dll
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\obj\Debug\net5.0\ref\ECommerceApp.Core.dll
+C:\Users\BERK\source\repos\ECommerceApp\ECommerceApp.Core\obj\Debug\net5.0\ECommerceApp.Core.pdb

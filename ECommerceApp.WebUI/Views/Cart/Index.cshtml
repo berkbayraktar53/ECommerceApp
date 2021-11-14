@@ -1,0 +1,53 @@
+﻿@model CartListViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Sepetiniz</h2>
+@if (Model.Cart.CartLines.Count == 0)
+{
+    <h2 class="badge badge-danger">Sepetiniz boş</h2>
+}
+else
+{
+    <table class="table table-responsive">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Ürün Adı</th>
+                <th>Açıklama</th>
+                <th>Fiyat</th>
+                <th>Adet</th>
+            </tr>
+        </thead>
+        @foreach (var cartLine in Model.Cart.CartLines)
+        {
+            <tbody>
+                <tr>
+                    <td><img src="@cartLine.Product.ProductImage" style="width:auto; height:100px;" /></td>
+                    <td>@cartLine.Product.ProductName</td>
+                    <td>@cartLine.Product.Description</td>
+                    <td>@cartLine.Product.UnitPrice <i class="fa fa-turkish-lira"></i></td>
+                    <td>@cartLine.Quantity</td>
+                    <td><a class="btn btn-sm btn-danger" asp-controller="Cart" asp-action="RemoveFromCart" asp-route-productId="@cartLine.Product.ProductId">Sil</a></td>
+                </tr>
+            </tbody>
+        }
+        <thead>
+            <tr class="text-center">
+                <th colspan="2">Sipariş Özeti</th>
+                <th colspan="2">Toplam</th>
+                <th colspan="2"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="text-center">
+                <td colspan="2">Toplam @Model.Cart.CartLines.Count() Ürün</td>
+                <td colspan="2">@Model.Cart.CartLines.Sum(x => x.Product.UnitPrice) <i class="fa fa-turkish-lira"></i></td>
+                <td colspan="2"><a href="/Cart/Complete" class="btn btn-success" style="color:white;width:150px;">Sepeti Onayla</a></td>
+            </tr>
+        </tbody>
+    </table>
+}
